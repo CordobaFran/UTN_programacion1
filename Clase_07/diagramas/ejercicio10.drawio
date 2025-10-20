@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Página-1" id="DGyGSO5G2Lp5vZnaNY6j">
+    <mxGraphModel dx="601" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-1" target="gmJZ4qv5fpbvvPELR4M5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-1" value="Pedir valores M" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="148" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-6" target="gmJZ4qv5fpbvvPELR4M5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="120" />
+              <mxPoint x="560" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-15" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gmJZ4qv5fpbvvPELR4M5-8">
+          <mxGeometry x="-0.5584" y="-4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-6" target="gmJZ4qv5fpbvvPELR4M5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-14" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gmJZ4qv5fpbvvPELR4M5-12">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-6" value="Si M &amp;lt; 10" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="108" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-9" target="gmJZ4qv5fpbvvPELR4M5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-9" value="Pedir valores N" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="148" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-10" target="gmJZ4qv5fpbvvPELR4M5-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="280" />
+              <mxPoint x="560" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-17" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gmJZ4qv5fpbvvPELR4M5-13">
+          <mxGeometry x="-0.6154" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-10" target="gmJZ4qv5fpbvvPELR4M5-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.8333333333335" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-18" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gmJZ4qv5fpbvvPELR4M5-16">
+          <mxGeometry x="-0.1203" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-10" value="Si N &amp;lt; 15" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="108" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-19" target="gmJZ4qv5fpbvvPELR4M5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-19" value="Crear conjuntos A con M elementos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-22" target="gmJZ4qv5fpbvvPELR4M5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-22" value="Crear conjuntos B con N elementos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-24" target="gmJZ4qv5fpbvvPELR4M5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-24" target="gmJZ4qv5fpbvvPELR4M5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-24" value="Crear conjunto C&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmJZ4qv5fpbvvPELR4M5-26" target="gmJZ4qv5fpbvvPELR4M5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-26" value="Asignarle anexo entre A y B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="565" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-28" value="Crear conjunto D&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmJZ4qv5fpbvvPELR4M5-30" value="Asignarle anexo entre A y B menos los 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

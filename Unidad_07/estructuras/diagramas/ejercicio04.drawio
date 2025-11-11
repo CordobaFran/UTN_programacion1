@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="n_5ox44a-VOnnjBElQEf" name="Page-1">
+        <mxGraphModel dx="1354" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="crear estructura boletas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="610" y="325" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="640" y="325"/>
+                            <mxPoint x="640" y="620"/>
+                            <mxPoint x="400" y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="while&lt;div&gt;boletas[i]. legajo != 0 &amp;amp;&amp;amp; i &amp;lt; 100&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="270" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="190" y="495"/>
+                            <mxPoint x="190" y="325"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;p&gt;&lt;font&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;pedir datos:&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;color:&amp;nbsp;rgba(0, 0, 0, 0);&quot;&gt;a.1 Nro. de legajo (8 dígitos)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:&amp;nbsp;rgba(0, 0, 0, 0);&quot;&gt;a.2 Código de materia (6 dígitos)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:&amp;nbsp;rgba(0, 0, 0, 0);&quot;&gt;a.3 Día del examen (1..31)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:&amp;nbsp;rgba(0, 0, 0, 0);&quot;&gt;a.4 Mes del examen (1..12)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:&amp;nbsp;rgba(0, 0, 0, 0);&quot;&gt;a.5 Año del examen (4 dígitos)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0);&quot;&gt;a.6 Apellido (25 caract)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="430" width="280" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="685" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;struct Boletas&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;char apellido[25];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;char legajo[8];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;char codigoMateria[6];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;char dia[2];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;char mes[2];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;char anio[4];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="50" width="200" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

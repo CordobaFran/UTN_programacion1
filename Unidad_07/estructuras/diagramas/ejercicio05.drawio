@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="vGn4E5Rka528f-nbREKv" name="Page-1">
+        <mxGraphModel dx="714" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="simple">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="crear procedimiento datosMaterias" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="-890" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="-1000" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="recibir&lt;div&gt;- codigo de una materia&lt;/div&gt;&lt;div&gt;- vector generado en ej. 4&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="-800" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="almacenar en un nuevo vector los registros que coincidan con el codigo de materia recibido" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="-710" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="recorrer el vector e imprimir siguiendo el diseño" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="-610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;div style=&quot;line-height: 19px; white-space: pre; font-size: 14px; font-family: &amp;quot;Fira Code Retina&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;   Legajo &amp;nbsp; &amp;nbsp; &amp;nbsp;Nombre y Apellido &amp;nbsp; &amp;nbsp; &amp;nbsp;Fecha &amp;nbsp; &amp;nbsp; Código de materia&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;99999999 &amp;nbsp; &amp;nbsp;xxxxxxxxxxxxxxxxxxxx &amp;nbsp; &amp;nbsp;dd/mm/aa &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;999999&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;99999999 &amp;nbsp; &amp;nbsp;xxxxxxxxxxxxxxxxxxxx &amp;nbsp; &amp;nbsp;dd/mm/aa &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;999999&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,transparent);" vertex="1" parent="1">
+                    <mxGeometry x="160" y="-510" width="530" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="-410" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
